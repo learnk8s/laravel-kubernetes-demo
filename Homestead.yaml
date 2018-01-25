@@ -1,0 +1,19 @@
+ip: 192.168.19.90
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: 'C:\Users\Keith\Code\uasabi\laravel-kubernetes-demo'
+        to: /home/vagrant/code
+sites:
+    -
+        map: laravel-kubernetes-demo.test
+        to: /home/vagrant/code/public
+#databases:
+#    - laravel_kubernetes_demo
+name: laravel-kubernetes-demo
+hostname: laravel-kubernetes-demo
