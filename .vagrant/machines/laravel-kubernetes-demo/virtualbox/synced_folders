@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/code":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/code","hostpath":"C:/Users/Keith/Code/uasabi/laravel-kubernetes-demo","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Keith/Code/uasabi/laravel-kubernetes-demo","disabled":false,"__vagrantfile":true}}}
