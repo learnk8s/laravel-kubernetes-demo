@@ -102,8 +102,9 @@
     @endif
 
     <div class="content">
+        <img src="/img/k8s-logo-horizontal_color.png" alt="Learn K8s Logo">
         <div class="title m-b-md">
-            Laravel
+            Demo PHP Application
         </div>
 
         <div class="links">
