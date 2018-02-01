@@ -108,11 +108,12 @@
         </div>
 
         <div class="links">
-            <a href="https://laravel.com/docs">Documentation</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
+            <a target="_blank" href="https://github.com/learnk8s/laravel-kubernetes-demo/blob/master/README.md"
+               title="Documentation">Documentation</a>
+            <a target="_blank" href="https://learnk8s.io/">LearnK8s</a>
+            <a target="_blank" href="https://github.com/learnk8s/laravel-kubernetes-demo"
+               title="This app on GitHub"
+            >GitHub</a>
         </div>
     </div>
 </div>
