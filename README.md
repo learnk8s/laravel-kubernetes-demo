@@ -1,19 +1,42 @@
-# laravel-kubernetes-demo
-A simple Laravel Demo Application for a Kubernetes Tutorial
+# Laravel Kubernetes Demo Application
 
-Description coming soon...
+A simple Laravel Demo Application for a Kubernetes Tutorial.
+
+This application is a simple stateless Laravel installation for learning how to deploy a PHP application to Kubernetes.
+
+As detailed in [this tutorial](https://learnk8s.io/blog/deploying-laravel-to-kubernetes/)
+
 
 ## Installation
-Coming soon....
+
+This application is nothing more than a simple stateless Laravel installation. However if you wish to install it, simply follow these steps:
+
+__Clone the repository__
+
+`git clone git@github.com:learnk8s/laravel-kubernetes-demo.git`
+
+__Install dependencies__
+
+`composer install`
+
 ## Documentation
-Coming soon....
+
+As detailed in [this tutorial](https://learnk8s.io/blog/deploying-laravel-to-kubernetes/)
+
 ## Support
-Coming soon....
+
+Please email support@learnk8s.io
+
 ## Contribution
-Coming soon....
+
+Third party contributions are not available.
+
+
 ## Copyright
 
-Coming soon....
+Copyright &copy; learnk8s.io 2017 - 2018.
+
+
 ## License
 
-Coming soon....
+The Laravel framework and this demo are open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
