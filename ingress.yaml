@@ -14,5 +14,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: demo
+          serviceName: laravel-kubernetes-demo
           servicePort: 8181
