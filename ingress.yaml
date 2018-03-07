@@ -1,14 +1,18 @@
----
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: laravel-kubernetes-demo-ingress
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
 spec:
+  backend:
+    serviceName: default-http-server
+    servicePort: 80
   rules:
   - host: laravel-kubernetes.demo
   - http:
       paths:
-      - backend:
-          serviceName: laravel-kubernetes-demo-service
-          servicePort: 80
-        path: ./public
+      - path: /
+        backend:
+          serviceName: demo
+          servicePort: 8181
