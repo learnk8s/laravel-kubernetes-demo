@@ -10,7 +10,7 @@ spec:
     servicePort: 80
   rules:
   - host: laravel-kubernetes.demo
-  - http:
+    http:
       paths:
       - path: /
         backend:
