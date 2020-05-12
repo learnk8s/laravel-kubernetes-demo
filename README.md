@@ -27,16 +27,6 @@ As detailed in [this tutorial](https://learnk8s.io/blog/deploying-laravel-to-kub
 
 Please email support@learnk8s.io
 
-## Contribution
-
-Third party contributions are not available.
-
-
-## Copyright
-
-Copyright &copy; learnk8s.io 2017 - 2018.
-
-
 ## License
 
 The Laravel framework and this demo are open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
