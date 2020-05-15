@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: your-username/laravel-kubernetes-demo
+          image: learnk8s/laravel-kubernetes-demo
           ports:
             - containerPort: 80
           env:

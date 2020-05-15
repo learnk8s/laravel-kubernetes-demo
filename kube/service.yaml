@@ -3,8 +3,10 @@ kind: Service
 metadata:
   name: laravel-kubernetes-demo
 spec:
+  type: NodePort
   selector:
     run: laravel-kubernetes-demo
   ports:
     - port: 80
       targetPort: 80
+      nodePort: 31000
